@@ -1,2 +1,2 @@
 # Recipes
-Dishes
+This is the first basic website containing famous dishes all over India.
