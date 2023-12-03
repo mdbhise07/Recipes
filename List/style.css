@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-size: contain;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* background-image: url("https://img.freepik.com/premium-photo/white-food-background-with-empty-white-board-tomatoes-free-space-text-top-view-copy-space_503274-1320.jpg?size=626&ext=jpg&ga=GA1.1.386372595.1698624000&semt=ais"); */
+}
+.heading{
+    font-weight: bolder;
+    color: goldenrod;
+    border-style:outset;
+    box-sizing:border-box;
+    border: 5px purple ridge;
+    /* width: 600px; */
+    /* padding: 10px; */
+    /* margin-left: 500px; */
+    text-align: center;
+    /* background-color: lightcoral; */
+}
+.items{
+        margin:10px;
+        padding: 20px;
+        text-align: center;
+        border-style: dotted;
+        background-image: url("https://img.freepik.com/premium-photo/white-wooden-banner-cooking-top-view-free-space-your-text-rustic-style_187166-17842.jpg");
+        /* background-attachment: fixed; */
+        
+        
+}
+.heading.style {
+    color: goldenrod;
+    border-radius: 200px;
+    width: 400px;
+    height: 90px;
+    border: 5px gold solid ;
+    margin-left: 200px;
+    padding: 10px;
+    
+}
+.heading.style:hover{
+    background-color: goldenrod;
+    color: whitesmoke;
+}
+img{
+    border-radius: 200px;
+    border-color: brown;
+    border-style: solid;
+    box-shadow: 200px;
+}
+img:hover{
+    transform: scale(1.1,1.1);
+    cursor: pointer;
+    box-shadow: 100px red;
+}
+a{
+    text-decoration: none;
+    text-align: center;
+}
+div{
+    background-image: url("https://img.freepik.com/premium-photo/white-wooden-banner-cooking-top-view-free-space-your-text-rustic-style_187166-17842.jpg");
+    background-attachment: fixed;
+    background-position-x: 100%;
+    background-position-y: 100%;
+}
+div img{
+    border-radius: 300px;
+    margin: 18px;
+
+}
+.prep{
+    border:dotted;
+    margin:0px 500px 0px 500px;
+    text-align: center;
+    font-size: x-large;
+    border-radius: 300px;
+}
+.prep:hover,
+.detail:hover{
+    color:whitesmoke;
+    background-color: goldenrod;
+    border-color: gold;
+    cursor: pointer;
+    border-radius: 200px;
+}
+.detail{
+    font-size: x-large;
+    text-align: center;
+    border: dotted;
+    margin: 20px;
+    list-style: none;
+    border-radius: 100px;
+}
+.detail:hover{
+    border-radius: 100px;
+}
