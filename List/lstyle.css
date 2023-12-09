@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "josefin sans",sans-serif;
+    outline: none;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-image: url("img/back.jpg");
+    background-attachment: fixed;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    flex-direction: column;
+    padding: 0px;
+    grid-template-columns: 20px 1fr 20px;
+    grid-template-rows: repeat(5,max-content);
+    grid-gap: 4rem;
+}
+.main-page{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.main-page img{
+    width: 6rem;
+    display: flex;
+    position: absolute;
+    top: 7rem;
+    left: 7rem;
+    border-radius: 3rem;
+}
+.main-page img:hover {
+    transform: scale(1.1);
+    color: goldenrod;
+    cursor: pointer;
+    /*transition: all 2s; */
+}
+.right-link{
+    color: white;
+    /* text-align: end; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: -webkit-fill-available;
+    margin: 4rem;
+    flex-direction: row;
+    position: absolute;
+}
+.right-link ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 3rem;
+    list-style: none;
+    /* padding-right: 6rem; */
+    margin-right: 1rem;
+    margin-top: 3rem;
+}
+ul li:hover{
+    cursor: pointer;
+    color: white;
+    background-color: goldenrod;
+    transition: all 1s;
+    padding: 7px;
+    border-radius: 3rem;
+}
+ul li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    color: gold;
+    border-radius: 3rem;
+    padding: 7px;
+}
+.header{
+    position: absolute;
+    /* grid-column: 2/3; */
+    /* grid-row: 1/2; */
+    font-size: 3rem;
+    width: -webkit-fill-available;
+    /* text-align: center; */
+    /* justify-content: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 29rem;
+    /* padding-bottom: 10rem; */
+    font-style: italic;
+    
+    
+}
+/* .header:hover{
+    transition: all 3s;
+    transform: scale(1.1);
+} */
+.header h1{
+    display: flex;
+    position: absolute;
+    top: 26rem;
+    color: gold;
+    font-style: oblique;
+    padding-bottom: 5rem;
+
+}
+.header p{
+    display: flex;
+    position: absolute;
+    top: 34rem;
+    color: white;
+    padding: 1rem;
+    font-weight: bold;
+}
+img {
+    border-radius: 16rem;
+    width: -webkit-fill-available;
+}
+img:hover{
+    transition: all ease-in-out 2s;
+}
+img.cplate {
+    width: 63rem;
+    /* border: 20px solid sandybrown; */
+    margin-left: 95rem;
+    margin-top: 44rem;
+    border-radius: 43rem;
+    /* background-color: brown; */
+    /* align-items: inherit; */
+    position: absolute;
+}
+img.cplate:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, .5);
+}
+.slogan {
+    position: static;
+    /* grid-column: 2/3; */
+    /* grid-row: 2/3; */
+    width: -webkit-fill-available;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.slogan:hover{
+    transition: all 2s;
+}
+.slogan h2{
+    /* justify-content: center; */ 
+    /* align-items: center; */
+    font-size: 5rem;
+    margin: 60rem 1rem 1rem 6rem;
+    position: absolute;
+    color: goldenrod;
+    font-style: italic;
+    /* margin: 4rem; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+
+}
+.slogan p{
+    position: absolute;
+    font-size: 4rem;
+    color: white;
+    padding-top: 76rem;
+    margin: 2rem;
+    /*align-items: center */
+}
+.pos1{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.pos2{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.pos3{
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+.pos4{
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+.pos5{
+    grid-column: 2/3;
+    grid-row: 5/5;
+}
+.Menu-list{
+    position: static;
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+.Menu-list ul{
+    position: absolute;
+    font-size: 4rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 51rem;
+    left: 96rem;
+    justify-content: center;
+    align-items: center;
+}
+.Menu-list ul:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, .5);
+}
+.dishes{
+    position: absolute;
+    width: 31rem;
+    /* display: grid; */
+    display: flex;
+    margin-top: 170%;
+    margin-left: 50rem;
+}
+img.space {
+    margin-right: 4rem;
+    border: 1px solid white;
+    border-radius: 8rem;
+}
+img.space:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 1s;
+}
+.name {
+    font-size: 2rem;
+    color: gold;
+    position: absolute;
+    display: flex;
+    top: 31rem;
+    /* align-items: end; */
+    /* width: 2rem; */
+    /* justify-content: center; */
+}
+.name h2:hover{
+    border:2px solid white;
+    border-radius: 3rem;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: ease-in-out 1s;
+    padding: 5px;
+    width: 250px;
+}
+.name h2 {
+    margin-right: 5rem;
+    padding: 5px;
+    border-radius: 3rem;
+    width: 250px;
+}
+.contact-us{
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    color: goldenrod;
+    position: static;
+    width: -webkit-fill-available;
+    display: flex;
+    flex-direction: column;
+}
+.contact-us h1{
+    font-size: 8rem;
+    position: absolute;
+    font-style: italic;
+    margin-top: -26rem;
+}
+.contact-us p{
+    font-size: 4rem;
+    position: absolute;
+    color: white;
+    font-style: italic;
+    margin-top: -7rem;
+}
+p button{
+    font-size: 4rem;
+    margin: 0 47rem 0;
+    position: absolute;
+    font-style: italic;
+    margin: 7rem -22rem 2rem 2rem;
+    left: -26rem;
+    border-radius: 11rem;
+    padding: 2rem;
+}
+p button:hover{
+    cursor: pointer;
+    color: white;
+    background-color: goldenrod;
+    transition: all ease-in-out 2s;
+}
